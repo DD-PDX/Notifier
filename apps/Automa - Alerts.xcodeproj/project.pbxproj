@@ -20,7 +20,7 @@
 		7C516FF523BFA5BC00608BEB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C516FF623BFA5BC00608BEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C7BF31F23BFA6B00054F8D8 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		7C8AB5DC22724FD6008E3160 /* Notifier - Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notifier - Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8AB5DC22724FD6008E3160 /* Automa - Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automa - Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C516FEF23BFA5BC00608BEB /* Notifier - Alerts */ = {
+		7C516FEF23BFA5BC00608BEB /* Automa - Alerts */ = {
 			isa = PBXGroup;
 			children = (
 				7C516FF523BFA5BC00608BEB /* AppDelegate.swift */,
@@ -44,13 +44,13 @@
 				7C516FF623BFA5BC00608BEB /* Info.plist */,
 				7C516FF223BFA5BC00608BEB /* MainMenu.xib */,
 			);
-			path = "Notifier - Alerts";
+			path = "Automa - Alerts";
 			sourceTree = "<group>";
 		};
 		7C8AB5D322724FD6008E3160 = {
 			isa = PBXGroup;
 			children = (
-				7C516FEF23BFA5BC00608BEB /* Notifier - Alerts */,
+				7C516FEF23BFA5BC00608BEB /* Automa - Alerts */,
 				7C8AB5DD22724FD6008E3160 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 		7C8AB5DD22724FD6008E3160 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C8AB5DC22724FD6008E3160 /* Notifier - Alerts.app */,
+				7C8AB5DC22724FD6008E3160 /* Automa - Alerts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C8AB5DB22724FD6008E3160 /* Notifier - Alerts */ = {
+		7C8AB5DB22724FD6008E3160 /* Automa - Alerts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Notifier - Alerts" */;
+			buildConfigurationList = 7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Automa - Alerts" */;
 			buildPhases = (
 				7C8AB5D822724FD6008E3160 /* Sources */,
 				7C8AB5D922724FD6008E3160 /* Frameworks */,
@@ -78,12 +78,12 @@
 			);
 			dependencies = (
 			);
-			name = "Notifier - Alerts";
+			name = "Automa - Alerts";
 			packageProductDependencies = (
 				7C3ECE5423E07499008E3D9D /* SPMUtility */,
 			);
 			productName = "test-banner-2";
-			productReference = 7C8AB5DC22724FD6008E3160 /* Notifier - Alerts.app */;
+			productReference = 7C8AB5DC22724FD6008E3160 /* Automa - Alerts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Notifier - Alerts" */;
+			buildConfigurationList = 7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Automa - Alerts" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C8AB5DB22724FD6008E3160 /* Notifier - Alerts */,
+				7C8AB5DB22724FD6008E3160 /* Automa - Alerts */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82K2XFN8L6;
+				DEVELOPMENT_TEAM = XHWUVDKEWV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82K2XFN8L6;
+				DEVELOPMENT_TEAM = XHWUVDKEWV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Notifier - Alerts" */ = {
+		7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Automa - Alerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C8AB5E822724FD8008E3160 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Notifier - Alerts" */ = {
+		7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Automa - Alerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C8AB5EB22724FD8008E3160 /* Debug */,

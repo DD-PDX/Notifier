@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-               BuildableName = "Notifier - Notifications.app"
-               BlueprintName = "Notifier - Notifications"
-               ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
+               BuildableName = "Automa - Notifications.app"
+               BlueprintName = "Automa - Notifications"
+               ReferencedContainer = "container:Automa - Notifications.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-            BuildableName = "Notifier - Notifications.app"
-            BlueprintName = "Notifier - Notifications"
-            ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
+            BuildableName = "Automa - Notifications.app"
+            BlueprintName = "Automa - Notifications"
+            ReferencedContainer = "container:Automa - Notifications.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-            BuildableName = "Notifier - Notifications.app"
-            BlueprintName = "Notifier - Notifications"
-            ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
+            BuildableName = "Automa - Notifications.app"
+            BlueprintName = "Automa - Notifications"
+            ReferencedContainer = "container:Automa - Notifications.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
