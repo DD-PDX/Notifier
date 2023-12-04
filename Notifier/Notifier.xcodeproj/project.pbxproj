@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,6 +44,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 7C8AB5DC22724FD6008E3160;
 			remoteInfo = "Automa - Notifications";
+		};
+		BC1A40112B1E75E8000F0A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C9C700A23C14A9600A1A363 /* Automa - Notifications.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C8AB5DC22724FD6008E3160;
+			remoteInfo = "Automa - Notifications";
+		};
+		BC1A40162B1E75E8000F0A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD4280223BFA4D500F9D5B9 /* Automa - Alerts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C8AB5DC22724FD6008E3160;
+			remoteInfo = "Automa - Alerts";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -166,6 +180,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BC1A400E2B1E75E8000F0A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A40122B1E75E8000F0A57 /* Automa - Notifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1A40132B1E75E8000F0A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A40172B1E75E8000F0A57 /* Automa - Alerts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,12 +264,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = BC1A40132B1E75E8000F0A57 /* Products */;
+					ProjectRef = 7CD4280223BFA4D500F9D5B9 /* Automa - Alerts.xcodeproj */;
+				},
+				{
 					ProductGroup = 951F625326E16995001F8E08 /* Products */;
 					ProjectRef = 951F625226E16995001F8E08 /* Automa - Alerts.xcodeproj */;
 				},
 				{
 					ProductGroup = 951F625026E16995001F8E08 /* Products */;
 					ProjectRef = 951F624F26E16995001F8E08 /* Automa - Notifications.xcodeproj */;
+				},
+				{
+					ProductGroup = BC1A400E2B1E75E8000F0A57 /* Products */;
+					ProjectRef = 7C9C700A23C14A9600A1A363 /* Automa - Notifications.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -262,6 +300,20 @@
 			fileType = wrapper.application;
 			path = "Automa - Notifications.app";
 			remoteRef = 951F625D26E16996001F8E08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BC1A40122B1E75E8000F0A57 /* Automa - Notifications.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Automa - Notifications.app";
+			remoteRef = BC1A40112B1E75E8000F0A57 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BC1A40172B1E75E8000F0A57 /* Automa - Alerts.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Automa - Alerts.app";
+			remoteRef = BC1A40162B1E75E8000F0A57 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -467,7 +519,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.Notifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +544,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.Notifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
